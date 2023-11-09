@@ -8,3 +8,7 @@ sudo mv nvim.appimage /usr/local/bin/nvim
 git clone --depth 1 https://github.com/abhijeet-sasmal/AstroNvim.git ~/.config/nvim
 sudo apt install gcc -y
 nvim +PackerSync
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+nvm install 18
+nvm use 18
+
